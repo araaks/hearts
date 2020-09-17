@@ -35,6 +35,12 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/back_of_card_full" />
+
+            <TextView
+                android:id="@+id/p2Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 2 Score" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,6 +82,12 @@
                 android:adjustViewBounds="true"
                 android:rotation="90"
                 app:srcCompat="@drawable/back_of_card_full" />
+
+            <TextView
+                android:id="@+id/p3Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 3 Score" />
         </LinearLayout>
 
         <LinearLayout
@@ -144,6 +156,12 @@
                 android:adjustViewBounds="true"
                 android:rotation="90"
                 app:srcCompat="@drawable/back_of_card_full" />
+
+            <TextView
+                android:id="@+id/p4Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 4 Score" />
         </LinearLayout>
     </LinearLayout>
 
@@ -284,6 +302,26 @@
             android:cropToPadding="false"
             android:scaleType="fitCenter"
             tools:srcCompat="@drawable/back_of_card_full" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLAY" />
+
+            <TextView
+                android:id="@+id/p1Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Your Score" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>
