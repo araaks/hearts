@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#427643"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -19,7 +20,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal"></LinearLayout>
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/p2Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 2 Score"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,11 +48,6 @@
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/back_of_card_full" />
 
-            <TextView
-                android:id="@+id/p2Score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Player 2 Score" />
         </LinearLayout>
 
         <LinearLayout
@@ -71,6 +78,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:gravity="left|center_vertical"
             android:orientation="vertical">
@@ -79,6 +87,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:adjustViewBounds="true"
                 android:rotation="90"
                 app:srcCompat="@drawable/back_of_card_full" />
@@ -87,7 +96,10 @@
                 android:id="@+id/p3Score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 3 Score" />
+                android:text="Player 3 Score"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -145,6 +157,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:gravity="right"
             android:orientation="vertical">
@@ -153,6 +166,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
                 android:adjustViewBounds="true"
                 android:rotation="90"
                 app:srcCompat="@drawable/back_of_card_full" />
@@ -161,7 +175,10 @@
                 android:id="@+id/p4Score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 4 Score" />
+                android:text="Player 4 Score"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
@@ -175,7 +192,7 @@
 
         <ImageButton
             android:id="@+id/card0"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -185,7 +202,7 @@
 
         <ImageButton
             android:id="@+id/card1"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -195,7 +212,7 @@
 
         <ImageButton
             android:id="@+id/card2"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -205,7 +222,7 @@
 
         <ImageButton
             android:id="@+id/card3"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -215,7 +232,7 @@
 
         <ImageButton
             android:id="@+id/card4"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -225,7 +242,7 @@
 
         <ImageButton
             android:id="@+id/card5"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -235,7 +252,7 @@
 
         <ImageButton
             android:id="@+id/card6"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -245,7 +262,7 @@
 
         <ImageButton
             android:id="@+id/card7"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -255,7 +272,7 @@
 
         <ImageButton
             android:id="@+id/card8"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -265,7 +282,7 @@
 
         <ImageButton
             android:id="@+id/card9"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -275,7 +292,7 @@
 
         <ImageButton
             android:id="@+id/card10"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -285,7 +302,7 @@
 
         <ImageButton
             android:id="@+id/card11"
-            android:layout_width="35dp"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:adjustViewBounds="true"
             android:background="#0043B53B"
@@ -302,6 +319,7 @@
             android:cropToPadding="false"
             android:scaleType="fitCenter"
             tools:srcCompat="@drawable/back_of_card_full" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -317,8 +335,10 @@
                 android:id="@+id/p1Score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Your Score" />
+                android:text="Your Score"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
