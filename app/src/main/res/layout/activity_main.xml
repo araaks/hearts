@@ -114,7 +114,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/back_of_card_full" />
+                app:srcCompat="@drawable/cup_6" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,14 +129,14 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/back_of_card_full" />
+                app:srcCompat="@drawable/coin_ace" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/back_of_card_full" />
+                app:srcCompat="@drawable/wand_ace" />
         </LinearLayout>
 
         <LinearLayout
@@ -151,7 +151,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/back_of_card_full" />
+                app:srcCompat="@drawable/cup_queen" />
         </LinearLayout>
 
         <LinearLayout
@@ -298,7 +298,7 @@
             android:background="#0043B53B"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            tools:srcCompat="@drawable/back_of_card_left" />
+            tools:srcCompat="@drawable/sword_queen_left" />
 
         <ImageButton
             android:id="@+id/card11"
@@ -308,7 +308,7 @@
             android:background="#0043B53B"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            tools:srcCompat="@drawable/back_of_card_left" />
+            tools:srcCompat="@drawable/cup_6_left" />
 
         <ImageButton
             android:id="@+id/card12"
@@ -318,7 +318,7 @@
             android:background="#0043B53B"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            tools:srcCompat="@drawable/back_of_card_full" />
+            tools:srcCompat="@drawable/coin_ace" />
 
         <LinearLayout
             android:layout_width="wrap_content"
